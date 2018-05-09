@@ -15,12 +15,6 @@ This means that you don't have to change anything by yourself, but it could be a
 
 If you experience any bugs, please report them to $ISSUES."
 
-if rm -f $SCRIPTS/update.sh
-then
-msg_box "The old update.sh couldn't be removed.
-Please report this to $ISSUES"
-fi
-
 download_static_script update
 
 bash $SCRIPTS/update.sh
