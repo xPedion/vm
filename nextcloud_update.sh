@@ -15,7 +15,7 @@ This means that you don't have to change anything by yourself, but it could be a
 
 If you experience any bugs, please report them to $ISSUES."
 
-download_static_script update
+download_script STATIC update
 chmod +x $SCRIPTS/update.sh
 bash $SCRIPTS/update.sh
 
